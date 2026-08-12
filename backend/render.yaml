@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: cognodb-movie-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: COGNO_DB_URI
+        sync: false
+      - key: COGNO_DB_USER
+        sync: false
+      - key: COGNO_DB_PASSWORD
+        sync: false
+      - key: ENV
+        value: production

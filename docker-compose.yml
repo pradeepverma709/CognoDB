@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - COGNO_DB_URI=${COGNO_DB_URI:-bolt://localhost:7687}
+      - COGNO_DB_USER=${COGNO_DB_USER:-neo4j}
+      - COGNO_DB_PASSWORD=${COGNO_DB_PASSWORD:-password}
+      - PORT=8000
+      - ENV=production
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: always
