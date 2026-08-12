@@ -227,16 +227,39 @@ docker-compose up --build
 5. Add Environment Variable: `VITE_API_BASE_URL=https://your-backend-render-url.onrender.com`.
 
 ---
-
 ## 📷 Application Screenshots
 
-*(Place screenshots here when running locally)*
-- **Dashboard Overview**: Metrics cards, top rated movies, multi-hop recommendations.
-- **Interactive Graph Canvas**: Canvas visualization of graph nodes and relationship edges.
-- **Recommendations**: 2+ hop Cypher traversals.
-- **Similar Users**: Network similarity score matching.
+### Dashboard
+
+<p align="center">
+  <img src="./Screenshots/Screenshot1.png" width="90%">
+</p>
+
+### Browse Movies
+
+<p align="center">
+  <img src="./Screenshots/Screenshot2.png" width="90%">
+</p>
+
+### Genre Explorer
+
+<p align="center">
+  <img src="./Screenshots/Screenshot3.png" width="90%">
+</p>
+
+### Actors Catalog
+
+<p align="center">
+  <img src="./Screenshots/Screenshot4.png" width="90%">
+</p>
+
+### Graph Analytics
+
+<p align="center">
+  <img src="./Screenshots/Screenshot5.png" width="90%">
+</p>
 
 ---
 
 ## 📜 License
-Developed for the **WEXA AI CognoDB Assignment**. Production quality full-stack repository.
+Developed for the **Pradeep Verma**. Production quality full-stack repository.
