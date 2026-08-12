@@ -1,0 +1,18 @@
+# Frontend dependencies for the React + Vite app
+# Install with: npm install
+# or: npm install axios lucide-react react react-dom react-router-dom
+# Dev dependencies: npm install -D @types/react @types/react-dom @vitejs/plugin-react autoprefixer postcss tailwindcss typescript vite
+
+axios
+lucide-react
+react
+react-dom
+react-router-dom
+@types/react
+@types/react-dom
+@vitejs/plugin-react
+autoprefixer
+postcss
+tailwindcss
+typescript
+vite
