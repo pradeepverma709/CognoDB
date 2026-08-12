@@ -227,24 +227,26 @@ docker-compose up --build
 5. Add Environment Variable: `VITE_API_BASE_URL=https://your-backend-render-url.onrender.com`.
 
 ---
+## 📷 Application Screenshots
+
 ### Dashboard & Browse Movies
 
 <p align="center">
-  <img src="./Screenshots/Screenshot1.png" width="45%">
-  <img src="./Screenshots/Screenshot2.png" width="45%">
+  <img src="screenshots/Screenshot1.png" width="45%">
+  <img src="screenshots/Screenshot2.png" width="45%">
 </p>
 
 ### Genre Explorer & Actors Catalog
 
 <p align="center">
-  <img src="./Screenshots/Screenshot3.png" width="45%">
-  <img src="./Screenshots/Screenshot4.png" width="45%">
+  <img src="screenshots/Screenshot3.png" width="45%">
+  <img src="screenshots/Screenshot4.png" width="45%">
 </p>
 
 ### Graph Analytics
 
 <p align="center">
-  <img src="./Screenshots/Screenshot5.png" width="90%">
+  <img src="screenshots/Screenshot5.png" width="90%">
 </p>
 ---
 
