@@ -227,8 +227,6 @@ docker-compose up --build
 5. Add Environment Variable: `VITE_API_BASE_URL=https://your-backend-render-url.onrender.com`.
 
 ---
-## 📷 Application Screenshots
-
 ### Dashboard & Browse Movies
 
 <p align="center">
