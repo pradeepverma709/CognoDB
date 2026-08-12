@@ -229,28 +229,18 @@ docker-compose up --build
 ---
 ## 📷 Application Screenshots
 
-### Dashboard
+### Dashboard & Browse Movies
 
 <p align="center">
-  <img src="./Screenshots/Screenshot1.png" width="90%">
+  <img src="./Screenshots/Screenshot1.png" width="45%">
+  <img src="./Screenshots/Screenshot2.png" width="45%">
 </p>
 
-### Browse Movies
+### Genre Explorer & Actors Catalog
 
 <p align="center">
-  <img src="./Screenshots/Screenshot2.png" width="90%">
-</p>
-
-### Genre Explorer
-
-<p align="center">
-  <img src="./Screenshots/Screenshot3.png" width="90%">
-</p>
-
-### Actors Catalog
-
-<p align="center">
-  <img src="./Screenshots/Screenshot4.png" width="90%">
+  <img src="./Screenshots/Screenshot3.png" width="45%">
+  <img src="./Screenshots/Screenshot4.png" width="45%">
 </p>
 
 ### Graph Analytics
@@ -258,7 +248,6 @@ docker-compose up --build
 <p align="center">
   <img src="./Screenshots/Screenshot5.png" width="90%">
 </p>
-
 ---
 
 ## 📜 License
